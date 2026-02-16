@@ -90,13 +90,3 @@ The top-performing trader maintains ~90% profitable days regardless of Fear/Gree
 4. **Statistical Tests:** Mann-Whitney U tests for all Fear vs Greed comparisons.
 5. **Bonus — Predictive Model:** Random Forest (88% accuracy) using lagged behavioral features + sentiment.
 6. **Bonus — Clustering:** KMeans (K=2, silhouette=0.54) identified mainstream traders (n=30) vs whale traders (n=2).
-
-## Evaluation Criteria Addressed
-
-| Criterion | Coverage |
-|-----------|----------|
-| Data cleaning + merge correctness | ✓ Zero missing/duplicates, proper date alignment, documented merges |
-| Strength of reasoning | ✓ Statistical tests (Mann-Whitney U), percentage changes, segment comparisons |
-| Quality of insights | ✓ 3 actionable insights with supporting evidence, not generic observations |
-| Clarity of communication | ✓ Structured notebook with clear section headers, summary write-up |
-| Reproducibility | ✓ requirements.txt, sequential notebook, saved outputs |
